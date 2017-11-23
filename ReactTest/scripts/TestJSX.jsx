@@ -373,10 +373,10 @@ function Greeting(props) {
 //__________________________________________
 // Combine Arrays
 //alert("Stop Code");
-const current = ['Bill', 'Joe', 'Emily', 'Andrea']
-const newStudents = ['Andrew', 'Tasha', 'Carol', 'George'];
-const arrAll = [...current, ...newStudents];
-console.log(...arrAll);
+//const current = ['Bill', 'Joe', 'Emily', 'Andrea']
+//const newStudents = ['Andrew', 'Tasha', 'Carol', 'George'];
+//const arrAll = [...current, ...newStudents];
+//console.log(...arrAll);
 
 //---------------------------------------------------
 // Lesson 6
