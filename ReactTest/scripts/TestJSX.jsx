@@ -379,4 +379,12 @@ function Greeting(props) {
 //console.log(...arrAll);
 
 //---------------------------------------------------
-// Lesson 6
+
+//React final Update display of repos.
+
+//See React Docs "State and Lifecycle" and also "Lifting State Up"
+//Download and install devTools from => https://github.com/facebook/react-devtools
+
+this.setState((prevState, props) =>({repos: props.repos}));
+
+JSON.stringify(props.repos, ['name']);
